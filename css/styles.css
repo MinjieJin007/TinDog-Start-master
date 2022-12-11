@@ -1,6 +1,6 @@
 body {
   font-family: 'Montserrat';
-  color: white;
+  /* color: white; */
 }
 
 
@@ -17,6 +17,19 @@ h1 {
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
+  color: white;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+
+p {
+  color: #8f8f8f;
 }
 
 /* Navigation Bar */
@@ -43,14 +56,61 @@ h1 {
 
 /* Download Buttons */
 
-.image-iphone6{
-  width: 300px;
-  height: 600px;
+.download-button {
+  margin: 5% 3% 5% 0;
 }
-.rotate30 {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-    transform: rotate(30deg);
+
+.image-iphone6{
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* features section */
+#features {
+  /* here should be 7% 15% */
+  padding: 7% 6%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+/* icon */
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
